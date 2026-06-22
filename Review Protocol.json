@@ -1,0 +1,122 @@
+{
+  "review_title": {
+    "title": "Stigmergy and Self-Organizing Systems in Swarm Robotics: A Systematic Review",
+    "review_type": "Systematic Review",
+    "research_domain": [
+      "Swarm Robotics",
+      "Multi-Robot Systems",
+      "Collective Intelligence",
+      "Distributed Robotics",
+      "Artificial Intelligence",
+      "Complex Systems"
+    ]
+  },
+  "research_problem": {
+    "summary": "Although stigmergy and self-organization are recognized as fundamental principles of swarm robotics, there is no comprehensive systematic review integrating bibliometric, thematic, and epistemological analyses of the field.",
+    "research_gaps": [
+      "Lack of a unified conceptual and taxonomic framework for stigmergy and self-organization in swarm robotics.",
+      "Limited understanding of the relationships between biological inspiration, coordination mechanisms, robot architectures, and distributed control strategies.",
+      "Insufficient discussion of practical challenges associated with transferring swarm intelligence methods from simulation environments to real robotic platforms.",
+      "Fragmentation of methodologies and absence of comprehensive analyses of emerging research trends and future research directions."
+    ]
+  },
+  "review_objectives": {
+    "general_objective": "To systematically organize, classify, and synthesize the scientific literature on stigmergy and self-organization in swarm robotics through bibliometric, thematic, and epistemological analyses.",
+    "specific_objectives": [
+      "Define and distinguish the concepts of stigmergy and self-organization from the perspective of distributed robotic systems.",
+      "Identify and classify coordination mechanisms, distributed control strategies, architectures, and bio-inspired algorithms.",
+      "Develop a hierarchical thematic taxonomy representing the conceptual structure of the research field.",
+      "Characterize publication trends, geographical distribution, citation impact, and collaboration networks.",
+      "Identify emerging topics and temporal evolution of research themes.",
+      "Analyze representative application domains of stigmergic and self-organizing robotic systems.",
+      "Identify current research gaps, technical challenges, and promising future research directions."
+    ]
+  },
+  "research_questions": [
+    "How have stigmergy and self-organization been conceptualized and applied in swarm robotics?",
+    "Which coordination mechanisms, architectures, and algorithms are most frequently adopted?",
+    "How is the scientific knowledge organized within the field?",
+    "What are the major publication trends, collaboration patterns, and geographical distributions?",
+    "Which research topics have recently emerged, and how have they evolved over time?",
+    "What challenges and future opportunities remain open for the development of swarm robotic systems?"
+  ],
+  "keywords": {
+    "Stigmergy": [
+      "stigmergy",
+      "stigmergic",
+      "indirect coordination",
+      "environmental marking",
+      "digital pheromone"
+    ],
+    "Self-Organization": [
+      "self-organization",
+      "self-organizing",
+      "emergent behavior",
+      "decentralized control",
+      "collective behavior",
+      "pattern formation"
+    ],
+    "Swarm Robotics": [
+      "swarm robotics",
+      "swarm robot*",
+      "multi-robot system*",
+      "multi-agent system*",
+      "robot swarm*",
+      "collective robotics"
+    ]
+  },
+  "boolean_query": "(\"stigmergy\" OR \"stigmergic\" OR \"indirect coordination\" OR \"environmental marking\" OR \"digital pheromone\") AND (\"self-organization\" OR \"self-organizing\" OR \"emergent behavior\" OR \"decentralized control\" OR \"collective behavior\" OR \"pattern formation\") AND (\"swarm robotics\" OR \"swarm robot*\" OR \"multi-robot system*\" OR \"multi-agent system*\" OR \"robot swarm*\" OR \"collective robotics\")",
+  "planned_data_sources": [
+    "IEEE Xplore",
+    "ACM Digital Library",
+    "ScienceDirect",
+    "Springer Nature",
+    "MDPI",
+    "Wiley Online Library"
+  ],
+  "planned_eligibility_criteria": {
+    "inclusion": [
+      "Peer-reviewed journal articles.",
+      "Articles written in English.",
+      "Studies addressing concepts, models, methodologies, architectures, algorithms, or applications related to stigmergy, self-organization, and swarm robotics.",
+      "Studies providing sufficient methodological and technical information for analysis."
+    ],
+    "exclusion": [
+      "Conference papers, books, theses, editorials, and non-peer-reviewed publications.",
+      "Studies unrelated to the scope of swarm robotics, stigmergy, or self-organization.",
+      "Duplicate records.",
+      "Studies lacking sufficient methodological information."
+    ]
+  },
+  "planned_analysis": {
+    "analytical_axes": [
+      "Macrostructure of Scientific Production",
+      "Knowledge Base Analysis",
+      "Topic Evolution and Emerging Trends",
+      "Synthesis and Future Perspectives"
+    ],
+    "methods": [
+      "Bibliometric analysis",
+      "Thematic analysis",
+      "Thematic synthesis",
+      "Epistemological taxonomy construction",
+      "Keyword normalization",
+      "Citation analysis",
+      "Publication trend analysis",
+      "Geographical analysis",
+      "Emerging topic detection",
+      "Qualitative synthesis"
+    ]
+  },
+  "software_and_tools": [
+    "Python",
+    "Custom Python scripts",
+    "Microsoft Excel",
+    "Large Language Models (LLMs) for supporting thematic organization and consistency checking"
+  ],
+  "protocol_status": {
+    "registration": "Not prospectively registered.",
+    "protocol": "Prepared before the literature search and provided as Supplementary Material (Supplementary File S1).",
+    "amendments": "Minor refinements to the analytical framework were introduced during the review process. These refinements did not modify the review objectives, search strategy, or eligibility criteria."
+  }
+}
